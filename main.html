@@ -5,45 +5,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Animal Photos</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 20px;
-    }
+   #animal-photos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  background-color: #4a4a4a;
+  padding: 20px;
+  border-radius: 10px;
+}
 
-    #photo-heading {
-      text-align: center;
-      margin-bottom: 20px;
-    }
+#animal-photos img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
 
-    #animal-photos {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 15px;
-    }
+#photo-heading {
+  text-align: center;
+  color: white;
+}
 
-    #animal-photos img {
-      width: 100%;
-      height: 220px;
-      object-fit: cover;
-      border-radius: 10px;
-      display: block;
-    }
+body {
+  background-color: #1f1f1f;
+  padding: 20px;
+}
+ 
   </style>
 </head>
 <body>
   <h1 id="photo-heading">Animal Photos</h1>
 
-  <div id="animal-photos">
-    <img src="https://images.unsplash.com/photo-1516715094483-75da7dee9758?w=600" alt="camel">
-    <img src="https://images.unsplash.com/photo-1546182990-dffeafbe841d?w=600" alt="cheetah">
-    <img src="https://images.unsplash.com/photo-1557050543-4d5f4e07ef46?w=600" alt="elephant">
-    <img src="https://images.unsplash.com/photo-1534188753412-3e26d0d618d6?w=600" alt="gorilla">
-    <img src="https://images.unsplash.com/photo-1520315342629-6ea920342047?w=600" alt="koala">
-    <img src="https://images.unsplash.com/photo-1546182990-dffeafbe841d?w=600" alt="lion">
-    <img src="https://images.unsplash.com/photo-1589656966895-2f33e7653819?w=600" alt="polar bear">
-    <img src="https://images.unsplash.com/photo-1549480017-d76466a4b7e8?w=600" alt="tiger">
-    <img src="https://images.unsplash.com/photo-1517849845537-4d257902454a?w=600" alt="wolf">
-  </div>
+<div id="animal-photos">
+  <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2014_FallP8/Rami_Portfolio_Period8/unit4_css/project_1folder/cssProject1/camel.jpg" alt="camel">
+  <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2014_FallP8/Rami_Portfolio_Period8/unit4_css/project_1folder/cssProject1/cheetah.jpg" alt="cheetah">
+  <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2014_FallP8/Rami_Portfolio_Period8/unit4_css/project_1folder/cssProject1/elephant.jpg" alt="elephant">
+  <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2014_FallP8/Rami_Portfolio_Period8/unit4_css/project_1folder/cssProject1/gorilla.jpg" alt="gorilla">
+  <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2014_FallP8/Rami_Portfolio_Period8/unit4_css/project_1folder/cssProject1/koala.jpg" alt="koala">
+  <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2014_FallP8/Rami_Portfolio_Period8/unit4_css/project_1folder/cssProject1/lion.jpg" alt="lion">
+  <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2014_FallP8/Rami_Portfolio_Period8/unit4_css/project_1folder/cssProject1/polar_bear.jpg" alt="polar bear">
+  <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2014_FallP8/Rami_Portfolio_Period8/unit4_css/project_1folder/cssProject1/tiger.jpg" alt="tiger">
+  <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2014_FallP8/Rami_Portfolio_Period8/unit4_css/project_1folder/cssProject1/wolf.jpg" alt="wolf">
+</div>
+
 </body>
 </html>
